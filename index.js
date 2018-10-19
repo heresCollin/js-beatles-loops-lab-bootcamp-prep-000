@@ -1,7 +1,7 @@
 // add solution here
 function theBeatlesPlay(musicians,instruments){
   var myVariable = []
-  for(i = 0; i< musicians.length; i++ ){
+  for (i = 0; i< musicians.length; i++ ) {  
     var counter = 0
     myVariable.push(`${musicians[counter]} plays ${instruments[counter]}`)
     counter ++
